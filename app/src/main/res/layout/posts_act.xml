@@ -5,7 +5,6 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".tasks.TasksActivity"
     tools:openDrawer="start">
 
     <LinearLayout
@@ -31,6 +30,11 @@
             android:id="@+id/coordinatorLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="축하합니다. 메인화면 입니다."/>
 
             <FrameLayout
                 android:id="@+id/contentFrame"
